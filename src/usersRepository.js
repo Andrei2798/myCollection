@@ -7,7 +7,7 @@ import {
   getDocs,
 } from "firebase/firestore";
 import { app } from "../firebase";
-
+console.log("Test");
 export class UsersRepository {
   db = getFirestore(app);
   collectionName = "users";
